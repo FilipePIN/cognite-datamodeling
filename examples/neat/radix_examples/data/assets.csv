@@ -1,0 +1,28 @@
+name,description,parent_external_id,external_id,labels
+Acid Nitric Plant,Nitric acid production plant,,plant.acid_nitric,plant
+Pre-Reaction,Pre-Reaction Unit,plant.acid_nitric,unit.pre_reaction,unit
+React & Heat Recovery,React and Heat Recovery Unit,plant.acid_nitric,unit.react_heat_recovery,unit
+Oxi-Absorption,Oxi-Absorption Unit,plant.acid_nitric,unit.oxi_absorption,unit
+Pump-101A,Feed Transfer Pump A for pre-reaction,unit.pre_reaction,pre.p_101a,pump
+Pump-101B,Feed Transfer Pump B for pre-reaction,unit.pre_reaction,pre.p_101b,pump
+Compressor-101,Primary air compressor for pre-reaction,unit.pre_reaction,pre.c_101,compressor
+Mixer-101,Mixer for raw materials in pre-reaction,unit.pre_reaction,pre.mx_101,mixer
+Turbine-101A,Steam turbine drive A for pre-reaction,unit.pre_reaction,pre.t_101a,turbine
+Turnine-101B,Steam turbine drive B for pre-reaction,unit.pre_reaction,pre.t_101b,turbine
+Pump-201A,Circulation pump A for reaction unit,unit.react_heat_recovery,react.p_201a,pump
+Pump-201B,Circulation pump B for reaction unit,unit.react_heat_recovery,react.p_201b,pump
+Pump-202,Pump for cooling water circulation,unit.react_heat_recovery,react.p_202,pump
+Boiler-201,Boiler recovering waste heat,unit.react_heat_recovery,react.b_201,boiler
+Reactor-201,Main reactor for nitric acid reaction,unit.react_heat_recovery,react.r_201,reactor
+HeatExchanger-201,First stage heat exchanger,unit.react_heat_recovery,react.e_201,heat_exchanger
+HeatExchanger-202,Second stage heat exchanger,unit.react_heat_recovery,react.e_202,heat_exchanger
+Pump-301A,Absorption circulation pump A,unit.oxi_absorption,oxi.p_301a,pump
+Pump-301B,Absorption circulation pump B,unit.oxi_absorption,oxi.p_301b,pump
+Pump-302A,Nitric acid transfer pump A,unit.oxi_absorption,oxi.p_302a,pump
+Pump-302B,Nitric acid transfer pump B,unit.oxi_absorption,oxi.p_302b,pump
+Pump-303,Cooling pump for absorption tower,unit.oxi_absorption,oxi.p_303,pump
+Pump-304,Seal water service pump,unit.oxi_absorption,oxi.p_304,pump
+Column-301,Absorption column A for gas treatment,unit.oxi_absorption,oxi.c_301,column
+Column-302,Absorption column B for gas treatment,unit.oxi_absorption,oxi.c_302,column
+Compressor-301,Gas compressor A for oxi-absorption,unit.oxi_absorption,oxi.comp_301,compressor
+Compressor-302,Gas compressor B for oxi-absorption,unit.oxi_absorption,oxi.comp_302,compressor
