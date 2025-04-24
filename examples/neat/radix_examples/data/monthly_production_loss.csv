@@ -1,0 +1,13 @@
+oee_metric,area,loss
+setup,performance,120
+planned_maintenance,availability,360
+spec_buildup,quality,240
+mechanical_failure,availability,600
+planned_activities,performance,300
+turnover,availability,0
+reprocessing,quality,150
+automation_failure,availability,60
+low_yield,performance,30
+electrical_failure,availability,450
+unexpected_outage,performance,60
+product_out_of_spec,quality,150

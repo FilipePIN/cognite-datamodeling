@@ -1,0 +1,4 @@
+production,area,prod_percentage,quality_percentage
+1020 T/D,reaction,0.91,0.89
+1000 T/D,pre_reaction,0.97,0.85
+1013 T/D,oxi_absorption,0.93,0.99
