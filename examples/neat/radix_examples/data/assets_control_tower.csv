@@ -1,0 +1,8 @@
+name,description,parent_external_id,external_id,labels
+Control Tower Global,Control Tower Global,,glb.ctrl_twr,global
+Brazil,Country,glb.ctrl_twr,unit.bra,country
+Chile,Country,glb.ctrl_twr,unit.chl,country
+Senegal,Country,glb.ctrl_twr,unit.sen,country
+Mexico,Country,glb.ctrl_twr,unit.mex,country
+United States,Country,glb.ctrl_twr,unit.usa,country
+Canada,Country,glb.ctrl_twr,unit.can,country
